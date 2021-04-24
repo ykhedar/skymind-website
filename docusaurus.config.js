@@ -79,13 +79,6 @@ module.exports = {
 			],
 			copyright: `Copyright © ${new Date().getFullYear()} Skymind U.G.`,
 		},
-		algolia: {
-			apiKey: '0a6430e39d4d3b482366595f548b04f0',
-			indexName: 'dev_skymind',
-			searchParameters: {
-				facetFilters: [`version:${versions[0]}`],
-			},
-		},
 	},
 	presets: [
 		[

@@ -19,7 +19,7 @@ const features = [
   },
   {
     title: <>Mission Control Station</>,
-    imageUrl: 'img/mission_control.png',
+    imageUrl: 'img/mission_control.PNG',
     description: (
       <>
         Multiplatform mission planner for all your devices. Plan, Execute and Observe
@@ -29,7 +29,7 @@ const features = [
   },
   {
     title: <>Fleet Management</>,
-    imageUrl: 'img/fleet_management.png',
+    imageUrl: 'img/fleet_management.PNG',
     description: (
       <>
         Manage all aspects of your fleet and team and take action when needed.
@@ -38,7 +38,7 @@ const features = [
   },
   {
     title: <>Weather Forecast</>,
-    imageUrl: 'img/weather_forecast.png',
+    imageUrl: 'img/weather_forecast.PNG',
     description: (
       <>
         Check weather before flight or include automated flight checklist for safe
@@ -48,7 +48,7 @@ const features = [
   },
   {
     title: <>Flight Analytics</>,
-    imageUrl: 'img/log_analysis.png',
+    imageUrl: 'img/log_analysis.PNG',
     description: (
       <>
         Analyse developemental flights or production flights with automatically generated
@@ -98,7 +98,6 @@ function Home() {
               className={styles.heroLogo}
               src={useBaseUrl('img/icon.png')}
             />
-            Build cloud-based UAV solutions faster. We create the infrstructure for you.
             Build{' '}
             <span className={styles.heroProjectKeywords}>cloud-based</span>{' '} and {' '}
             <span className={styles.heroProjectKeywords}>autonomous</span> UAV solutions{' '}
