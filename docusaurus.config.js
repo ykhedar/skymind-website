@@ -13,7 +13,7 @@ module.exports = {
 			title: 'Skymind',
 			logo: {
 				alt: 'SKYMIND',
-				// src: 'img/logo.png',
+				src: 'img/logo.png',
 				// srcDark: 'img/logo white.svg'
 			},
 			hideOnScroll: true,
