@@ -1,5 +1,3 @@
-const versions = require('./versions.json');
-
 module.exports = {
 	title: 'SkyMind',
 	tagline: 'Low coding complete functional web applications',
@@ -30,7 +28,7 @@ module.exports = {
 					position: 'left'
 				},
 				{
-					href: 'https://discuss.skymind.eu/',
+					href: 'https://discuss.sky-mind.eu/',
 					to: 'community',
 					label: 'Forum', position: 'left'
 				},
@@ -59,7 +57,7 @@ module.exports = {
 					items: [
 						{
 							label: 'Forum',
-							href: 'https://discuss.skymind.eu/',
+							href: 'https://discuss.sky-mind.eu/',
 						},
 					],
 				},
