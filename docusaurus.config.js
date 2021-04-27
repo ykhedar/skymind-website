@@ -1,18 +1,19 @@
 module.exports = {
 	title: 'SkyMind',
 	tagline: 'Low coding complete functional web applications',
-	url: 'https://docs.skymind.eu',
+	url: 'https://sky-mind.eu',
 	baseUrl: '/',
 	onBrokenLinks: 'throw',
 	favicon: 'icon/favicon.ico',
 	organizationName: 'skymind',
 	projectName: 'website',
+	baseUrl: '/',
 	themeConfig: {
 		navbar: {
 			title: 'Skymind',
 			logo: {
-				alt: 'Skymind Logo',
-				src: 'img/logo.png',
+				alt: 'SKYMIND',
+				// src: 'img/logo.png',
 				// srcDark: 'img/logo white.svg'
 			},
 			hideOnScroll: true,

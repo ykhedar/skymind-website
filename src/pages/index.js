@@ -96,7 +96,7 @@ function Home() {
             <img
               alt="SkyMind logo"
               className={styles.heroLogo}
-              src={useBaseUrl('img/icon.png')}
+              src={useBaseUrl('img/skymind.png')}
             />
             Build{' '}
             <span className={styles.heroProjectKeywords}>cloud-based</span>{' '} and {' '}
