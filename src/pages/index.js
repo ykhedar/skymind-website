@@ -12,8 +12,8 @@ const features = [
     imageUrl: 'img/cloud_api.jpg',
     description: (
       <>
-        Open-source API for automating your UAV workflow. Control major UAV types,
-        and analyse application data in browser.
+        Open-source API for automating your UAV workflows. Control major UAV types,
+        and analyse application data from the comfort of your browser.
       </>
     ),
   },
@@ -32,7 +32,7 @@ const features = [
     imageUrl: 'img/fleet_management.PNG',
     description: (
       <>
-        Manage all aspects of your fleet and team and take action when needed.
+        Manage all aspects of your fleet and team. Take action right when needed.
       </>
     ),
   },
@@ -88,7 +88,7 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <div className={styles.hero}>
         <div className={styles.heroInner}>
@@ -101,9 +101,7 @@ function Home() {
             Build{' '}
             <span className={styles.heroProjectKeywords}>cloud-based</span>{' '} and {' '}
             <span className={styles.heroProjectKeywords}>autonomous</span> UAV solutions{' '}
-            <span className={styles.heroProjectKeywords}>faster</span>. We provide the infrastructure
-            {' '}
-            <span className={styles.heroProjectKeywords}>to you.</span>
+            <span className={styles.heroProjectKeywords}>faster</span>.
           </h1>
           <div className={styles.indexCtas}>
             <Link

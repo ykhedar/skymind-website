@@ -10,7 +10,7 @@ module.exports = {
 	baseUrl: '/',
 	themeConfig: {
 		navbar: {
-			title: 'Skymind',
+			title: '',
 			logo: {
 				alt: 'SKYMIND',
 				src: 'img/logo.png',
@@ -29,14 +29,21 @@ module.exports = {
 					position: 'left'
 				},
 				{
-					href: 'https://discuss.sky-mind.eu/',
-					to: 'community',
-					label: 'Forum', position: 'left'
-				},
-				{
 					alt: 'Github repository',
 					href: 'https://github.com/ykhedar/',
-          className: 'header-gitlab-link',
+                    className: 'header-github-link',
+					position: 'right'
+				},
+				{
+					href: 'https://api.sky-mind.eu/',
+					to: 'community',
+					label: 'APIs', 
+					position: 'right'
+				},
+				{
+					href: 'https://discuss.sky-mind.eu/',
+					to: 'community',
+					label: 'Forum', 
 					position: 'right'
 				},
 			],
@@ -50,6 +57,15 @@ module.exports = {
 						{
 							label: 'Introduction',
 							to: 'docs/',
+						}
+					],
+				},
+				{
+					title: 'APIs',
+					items: [
+						{
+							label: 'API',
+							href: 'https://api.sky-mind.eu/',
 						}
 					],
 				},
@@ -72,7 +88,15 @@ module.exports = {
 						{
 							label: 'Linkedin',
 							href: 'https://www.linkedin.com/in/yogeshkhedar/',
-						}
+						},
+						{
+							label: 'E-Mail',
+							href: 'mailto:khedar@sky-mind.eu',
+						},
+						{
+							label: 'Github repository',
+							href: 'https://github.com/ykhedar/',
+						},
 					],
 				},
 			],
@@ -86,19 +110,19 @@ module.exports = {
 				docs: {
 					sidebarPath: require.resolve('./sidebars.js'),
 					// Please change this to your repo.
-					editUrl: 'https://gitlab.com/aweframework/awe/edit/master/website/',
+					editUrl: 'https://github.com/ykhedar/skymind-website/edit/master/',
 					includeCurrentVersion: true,
 					showLastUpdateTime: true,
 					showLastUpdateAuthor: true,
 				},
 				blog: {
 					showReadingTime: true,
-					editUrl: 'https://gitlab.com/aweframework/awe/edit/master/website/',
+					editUrl: 'https://github.com/ykhedar/skymind-website/edit/master/',
 					postsPerPage: 3,
 					feedOptions: {
 						type: 'all',
-						language: 'es',
-						copyright: `Copyright © ${new Date().getFullYear()} Almis, Inc.`,
+						language: 'en',
+						copyright: `Copyright © ${new Date().getFullYear()} Skymind, U.G.`,
 					},
 				},
 				theme: {

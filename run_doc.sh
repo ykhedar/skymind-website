@@ -18,4 +18,21 @@ yarn install
 yarn run build
 
 #Deploy the Project
-yarn run start
+#yarn run start
+# Serve the documentation using nginx
+cd build/ && sudo apt install nginx && sudo mkdir -p /var/www/skydoc
+sudo cp -r * /var/www/skydoc/
+
+# add the  nginx config file.
+nano /etc/nginx/sites-enabled/skydoc
+
+sudo ln -s /etc/nginx/sites-available/skydoc /etc/nginx/sites-enabled/skydoc
+
+# Install the Lets encrpyt certificate system.
+sudo snap install core; sudo snap refresh core
+sudo apt-get remove certbot
+sudo snap install --classic certbot
+sudo ln -s /snap/bin/certbot /usr/bin/certbot
+
+# Generate and setup the SSL certificate automatically.
+sudo certbot --nginx
