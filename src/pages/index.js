@@ -52,7 +52,7 @@ const features = [
     description: (
       <>
         Analyse developemental flights or production flights with automatically generated
-        flight plots. 
+        flight plots. Also useful to draw long term insights from the fleet.
       </>
     ),
   },
@@ -62,7 +62,7 @@ const features = [
     description: (
       <>
         Train your new team members in simulation before taking to real flight and save
-        cost and time.
+        cost and time. Test new builds in simulation before deploying on the real device.
       </>
     ),
   },

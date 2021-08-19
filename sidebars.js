@@ -13,7 +13,6 @@ module.exports = {
       collapsed: false,
       items: [
         'intro',
-        'purpose',
         'architecture'
       ],
     },
