@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://khedar.github.io/blog</id>
+    <id>https://ykhedar.github.io/blog</id>
     <title>SkyMind Blog</title>
     <updated>1970-01-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://khedar.github.io/blog"/>
+    <link rel="alternate" href="https://ykhedar.github.io/blog"/>
     <subtitle>SkyMind Blog</subtitle>
-    <icon>https://khedar.github.io/icon/favicon.ico</icon>
+    <icon>https://ykhedar.github.io/icon/favicon.ico</icon>
     <rights>Copyright © 2021 Skymind, U.G.</rights>
     <entry>
         <title type="html"><![CDATA[Blog 1]]></title>
         <id>Blog 1</id>
-        <link href="https://khedar.github.io/blog/blog1"/>
+        <link href="https://ykhedar.github.io/blog/blog1"/>
         <updated>1970-01-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[<img style={{ width "10% 25%", padding: "50" }}]]></summary>
     </entry>
