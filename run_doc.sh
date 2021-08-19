@@ -20,11 +20,11 @@ yarn run build
 #Deploy the Project
 #yarn run start
 # Serve the documentation using nginx
-cd build/ && sudo apt install nginx && sudo mkdir -p /var/www/skydoc
+cd build/ && sudo apt install -y nginx && sudo mkdir -p /var/www/skydoc
 sudo cp -r * /var/www/skydoc/
 
 # add the  nginx config file.
-nano /etc/nginx/sites-enabled/skydoc
+nano /etc/nginx/sites-available/skydoc
 
 sudo ln -s /etc/nginx/sites-available/skydoc /etc/nginx/sites-enabled/skydoc
 

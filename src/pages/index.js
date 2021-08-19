@@ -98,21 +98,20 @@ function Home() {
               className={styles.heroLogo}
               src={useBaseUrl('img/skymind.png')}
             />
-            Build{' '}
-            <span className={styles.heroProjectKeywords}>cloud-based</span>{' '} and {' '}
-            <span className={styles.heroProjectKeywords}>autonomous</span> UAV solutions{' '}
-            <span className={styles.heroProjectKeywords}>faster</span>.
+            We enable{' '}
+            <span className={styles.heroProjectKeywords}>cloud-based</span>{' '}
+            <span className={styles.heroProjectKeywords}>automated</span> drone operations.{' '}
           </h1>
           <div className={styles.indexCtas}>
             <Link
               className={styles.indexCtasGetStartedButton}
-              to={useBaseUrl('docs/')}>
-              Start using Skymind
+              to="https://calendly.com/skymind/demo">
+              Schedule Meeting
             </Link>
             <Link
               className={clsx('margin-left--md', styles.indexTryMeButton)}
               to="http://sky-mind.eu">
-              Try a Demo
+              Online Demo
             </Link>
           </div>
         </div>

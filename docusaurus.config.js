@@ -1,12 +1,12 @@
 module.exports = {
 	title: 'SkyMind',
 	tagline: 'Low coding complete functional web applications',
-	url: 'https://sky-mind.eu',
+	url: 'https://ykhedar.github.io',
 	baseUrl: '/',
 	onBrokenLinks: 'throw',
 	favicon: 'icon/favicon.ico',
-	organizationName: 'skymind',
-	projectName: 'website',
+	organizationName: 'ykhedar',
+	projectName: 'skymind-website',
 	baseUrl: '/',
 	themeConfig: {
 		navbar: {
@@ -19,31 +19,15 @@ module.exports = {
 			hideOnScroll: true,
 			items: [
 				{
-					type: 'docsVersion',
-					position: 'left',
-					label: 'Docs',
-				},
-				{
-					to: 'blog',
-					label: 'Blog',
-					position: 'left'
+					alt: 'Schedule Meeting',
+					href: 'https://calendly.com/skymind/demo',
+                    className: 'header-calender-link',
+					position: 'right'
 				},
 				{
 					alt: 'Github repository',
 					href: 'https://github.com/ykhedar/',
                     className: 'header-github-link',
-					position: 'right'
-				},
-				{
-					href: 'https://api.sky-mind.eu/',
-					to: 'community',
-					label: 'APIs', 
-					position: 'right'
-				},
-				{
-					href: 'https://discuss.sky-mind.eu/',
-					to: 'community',
-					label: 'Forum', 
 					position: 'right'
 				},
 			],
@@ -52,55 +36,16 @@ module.exports = {
 			style: 'dark',
 			links: [
 				{
-					title: 'Docs',
-					items: [
-						{
-							label: 'Introduction',
-							to: 'docs/',
-						}
-					],
-				},
-				{
-					title: 'APIs',
-					items: [
-						{
-							label: 'API',
-							href: 'https://api.sky-mind.eu/',
-						}
-					],
-				},
-				{
-					title: 'Community',
-					items: [
-						{
-							label: 'Forum',
-							href: 'https://discuss.sky-mind.eu/',
-						},
-					],
-				},
-				{
 					title: 'Contact',
 					items: [
-						{
-							label: 'Twitter',
-							href: 'https://twitter.com/yogesh_khedar/',
-						},
-						{
-							label: 'Linkedin',
-							href: 'https://www.linkedin.com/in/yogeshkhedar/',
-						},
 						{
 							label: 'E-Mail',
 							href: 'mailto:khedar@sky-mind.eu',
 						},
-						{
-							label: 'Github repository',
-							href: 'https://github.com/ykhedar/',
-						},
 					],
 				},
 			],
-			copyright: `Copyright © ${new Date().getFullYear()} Skymind U.G.`,
+			copyright: `Copyright © ${new Date().getFullYear()} Skymind`,
 		},
 	},
 	presets: [

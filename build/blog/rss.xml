@@ -2,7 +2,7 @@
 <rss version="2.0">
     <channel>
         <title>SkyMind Blog</title>
-        <link>https://sky-mind.eu/blog</link>
+        <link>https://ykhedar.github.io/blog</link>
         <description>SkyMind Blog</description>
         <lastBuildDate>Thu, 01 Jan 1970 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -11,7 +11,7 @@
         <copyright>Copyright © 2021 Skymind, U.G.</copyright>
         <item>
             <title><![CDATA[Blog 1]]></title>
-            <link>https://sky-mind.eu/blog/blog1</link>
+            <link>https://ykhedar.github.io/blog/blog1</link>
             <guid>Blog 1</guid>
             <pubDate>Thu, 01 Jan 1970 00:00:00 GMT</pubDate>
             <description><![CDATA[<img style={{ width "10% 25%", padding: "50" }}]]></description>
