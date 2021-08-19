@@ -7,7 +7,7 @@ module.exports = {
 	favicon: 'icon/favicon.ico',
 	organizationName: 'ykhedar',
 	projectName: 'skymind-website',
-	baseUrl: '/sky-mind/',
+	baseUrl: '/skymind-website/',
 	themeConfig: {
 		navbar: {
 			title: '',
