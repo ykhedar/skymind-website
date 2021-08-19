@@ -1,1 +1,0 @@
-(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[679],{8952:function(s){"use strict";s.exports=JSON.parse('{"allTagsPath":"/sky-mind/blog/tags","slug":"uav","name":"uav","count":1,"permalink":"/sky-mind/blog/tags/uav"}')}}]);

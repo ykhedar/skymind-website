@@ -1,1 +1,0 @@
-(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[670],{6720:function(s){"use strict";s.exports=JSON.parse('{"allTagsPath":"/sky-mind/blog/tags","slug":"autonomous","name":"autonomous","count":1,"permalink":"/sky-mind/blog/tags/autonomous"}')}}]);
