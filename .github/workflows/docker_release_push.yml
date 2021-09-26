@@ -1,4 +1,4 @@
-name: documentation
+name: Docker Release Push
 
 on:
   push:
